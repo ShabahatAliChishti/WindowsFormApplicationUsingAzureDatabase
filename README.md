@@ -15,3 +15,42 @@ This is a group project for WSU Cpts583.
 |              | David Kelly       | david.e.kelly@wsu.edu     | 011779437 | davidke1234  |         |
 |              | Ya Wang           | ya.wang@wsu.edu           | 011672796 | leiawang89   | Yes     |
 |              | Jonathan Coronado | jonathan.coronado@wsu.edu | 011541511 | MacMuffin117 |         |
+
+# Getting Started
+
+How to use the Voting System
+1.  Install the application
+2.  
+
+
+# Developer details:
+
+
+# Tools
+
+    1. Visual Studio 2019
+    2. Git for windows
+    3. Windows Forms
+	4. Azure SQL or MongoDB - TBD
+
+# Setup
+
+    1. Install Visual Studio 2019.
+    2. Install Azure Data Studio - https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15#download-azure-data-studio
+	3. Sign up for free Azure portal: https://azure.microsoft.com/en-us/free/students/ Create account and use email from wsu. 
+    3. Install Git: https://git-scm.com/download/win.
+    4. Clone the repository using HTTPS. Copy url to buffer.
+    5. Create project directory folder C:\WSUProjects\583\
+    6. Run git clone from your project directory: git clone url.
+    7.
+	
+# Change Work flow
+
+    1. Add files to the project dir or modify them.
+    2. Get the status: git status.
+    3. Run git add to stage files for commit: git add.
+    4. Commit files: git commit -m "message".
+    5. Push files to repo: git push.
+
+    Optionally use Visual Studio git.
+
