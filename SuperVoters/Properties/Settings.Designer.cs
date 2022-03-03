@@ -23,7 +23,7 @@ namespace SuperVoters.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Server=tcp:supervoters.database.windows.net,1433;Initial Catalog=SuperVoters;Pers" +
             "ist Security Info=False;User ID=supervotersadmin;Password=Supervoters1!;Multiple" +
@@ -32,9 +32,6 @@ namespace SuperVoters.Properties {
         public string SuperVotersConnectionString {
             get {
                 return ((string)(this["SuperVotersConnectionString"]));
-            }
-            set {
-                this["SuperVotersConnectionString"] = value;
             }
         }
     }
