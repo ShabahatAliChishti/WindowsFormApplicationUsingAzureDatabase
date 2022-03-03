@@ -67,7 +67,7 @@ namespace SuperVoters
 
                         // Check Error
                         if (result < 0)
-                            retValue = "Error inserting data into Database!";
+                            retValue = "Error inserting data into Register table!";
                         else
                             retValue = "Successful";
                     }
