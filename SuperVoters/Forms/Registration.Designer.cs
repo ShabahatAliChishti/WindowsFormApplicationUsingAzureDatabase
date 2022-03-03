@@ -43,6 +43,11 @@ namespace SuperVoters
             this.label7 = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.TextBox();
             this.SaveRegistration = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.DateOfBirth = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.SaveMessage = new System.Windows.Forms.Label();
+            this.SaveResponse = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -54,7 +59,6 @@ namespace SuperVoters
             this.label1.Size = new System.Drawing.Size(108, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Registration";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // RoleList
             // 
@@ -78,21 +82,21 @@ namespace SuperVoters
             this.FirstName.Location = new System.Drawing.Point(359, 132);
             this.FirstName.Name = "FirstName";
             this.FirstName.Size = new System.Drawing.Size(121, 20);
-            this.FirstName.TabIndex = 3;
+            this.FirstName.TabIndex = 2;
             // 
             // MiddleInitial
             // 
             this.MiddleInitial.Location = new System.Drawing.Point(359, 173);
             this.MiddleInitial.Name = "MiddleInitial";
             this.MiddleInitial.Size = new System.Drawing.Size(121, 20);
-            this.MiddleInitial.TabIndex = 4;
+            this.MiddleInitial.TabIndex = 3;
             // 
             // LastName
             // 
             this.LastName.Location = new System.Drawing.Point(359, 213);
             this.LastName.Name = "LastName";
             this.LastName.Size = new System.Drawing.Size(121, 20);
-            this.LastName.TabIndex = 5;
+            this.LastName.TabIndex = 4;
             // 
             // label3
             // 
@@ -124,7 +128,7 @@ namespace SuperVoters
             // Label6
             // 
             this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(287, 260);
+            this.Label6.Location = new System.Drawing.Point(287, 300);
             this.Label6.Name = "Label6";
             this.Label6.Size = new System.Drawing.Size(32, 13);
             this.Label6.TabIndex = 10;
@@ -132,15 +136,15 @@ namespace SuperVoters
             // 
             // Email
             // 
-            this.Email.Location = new System.Drawing.Point(359, 253);
+            this.Email.Location = new System.Drawing.Point(359, 293);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(121, 20);
-            this.Email.TabIndex = 9;
+            this.Email.TabIndex = 6;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(287, 303);
+            this.label7.Location = new System.Drawing.Point(287, 343);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 13);
             this.label7.TabIndex = 12;
@@ -148,27 +152,74 @@ namespace SuperVoters
             // 
             // Address
             // 
-            this.Address.Location = new System.Drawing.Point(359, 296);
+            this.Address.Location = new System.Drawing.Point(359, 336);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(121, 20);
-            this.Address.TabIndex = 11;
+            this.Address.TabIndex = 7;
             // 
             // SaveRegistration
             // 
-            this.SaveRegistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaveRegistration.Location = new System.Drawing.Point(377, 365);
+            this.SaveRegistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SaveRegistration.Location = new System.Drawing.Point(375, 442);
             this.SaveRegistration.Name = "SaveRegistration";
             this.SaveRegistration.Size = new System.Drawing.Size(86, 25);
-            this.SaveRegistration.TabIndex = 13;
+            this.SaveRegistration.TabIndex = 10;
             this.SaveRegistration.Text = "Save";
             this.SaveRegistration.UseVisualStyleBackColor = true;
             this.SaveRegistration.Click += new System.EventHandler(this.SaveRegistration_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(287, 260);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(68, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Date Of Birth";
+            // 
+            // DateOfBirth
+            // 
+            this.DateOfBirth.Location = new System.Drawing.Point(359, 253);
+            this.DateOfBirth.Name = "DateOfBirth";
+            this.DateOfBirth.Size = new System.Drawing.Size(121, 20);
+            this.DateOfBirth.TabIndex = 5;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(506, 454);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(0, 13);
+            this.label9.TabIndex = 16;
+            // 
+            // SaveMessage
+            // 
+            this.SaveMessage.AutoSize = true;
+            this.SaveMessage.Location = new System.Drawing.Point(506, 448);
+            this.SaveMessage.Name = "SaveMessage";
+            this.SaveMessage.Size = new System.Drawing.Size(0, 13);
+            this.SaveMessage.TabIndex = 17;
+            // 
+            // SaveResponse
+            // 
+            this.SaveResponse.Location = new System.Drawing.Point(509, 430);
+            this.SaveResponse.MinimumSize = new System.Drawing.Size(20, 20);
+            this.SaveResponse.Multiline = true;
+            this.SaveResponse.Name = "SaveResponse";
+            this.SaveResponse.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.SaveResponse.Size = new System.Drawing.Size(207, 37);
+            this.SaveResponse.TabIndex = 18;
             // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.Controls.Add(this.SaveResponse);
+            this.Controls.Add(this.SaveMessage);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.DateOfBirth);
             this.Controls.Add(this.SaveRegistration);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Address);
@@ -194,7 +245,7 @@ namespace SuperVoters
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox RoleList;
+        public System.Windows.Forms.ComboBox RoleList;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox FirstName;
         private System.Windows.Forms.TextBox MiddleInitial;
@@ -207,5 +258,10 @@ namespace SuperVoters
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox Address;
         private System.Windows.Forms.Button SaveRegistration;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox DateOfBirth;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label SaveMessage;
+        private System.Windows.Forms.TextBox SaveResponse;
     }
 }

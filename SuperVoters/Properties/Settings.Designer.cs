@@ -26,9 +26,9 @@ namespace SuperVoters.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Server=tcp:supervoters.database.windows.net,1433;Initial Catalog=SuperVoters;Pers" +
-            "ist Security Info=False;User ID=supervotersadmin;Password={your_password};Multip" +
-            "leActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Ti" +
-            "meout=30;")]
+            "ist Security Info=False;User ID=supervotersadmin;Password=Supervoters1!;Multiple" +
+            "ActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Time" +
+            "out=30;")]
         public string SuperVotersConnectionString {
             get {
                 return ((string)(this["SuperVotersConnectionString"]));
