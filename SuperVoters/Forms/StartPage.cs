@@ -28,5 +28,11 @@ namespace SuperVoters.Forms
             VoteResults voteResults = new VoteResults();
             voteResults.Visible = true;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CandidateForm candidate = new CandidateForm();
+            candidate.Visible = true;
+        }
     }
 }
