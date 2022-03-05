@@ -34,5 +34,11 @@ namespace SuperVoters.Forms
             CandidateForm candidate = new CandidateForm();
             candidate.Visible = true;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            VoterForm voter = new VoterForm();
+            voter.Visible = true;
+        }
     }
 }
