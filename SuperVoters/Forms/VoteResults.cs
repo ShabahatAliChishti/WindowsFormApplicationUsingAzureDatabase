@@ -25,7 +25,7 @@ namespace SuperVoters.Forms
 
             try
             {
-                List<string> dates = FillElectionDates(ref retValue);
+                List<string> dates = GetElectionDates(ref retValue);
                 if (dates.Count > 0)
                 {
                     ElectionDates.Items.AddRange(dates.ToArray());
@@ -41,7 +41,7 @@ namespace SuperVoters.Forms
                 Messages.Text = retValue;
         }
 
-        private List<string> FillElectionDates(ref string retValue)
+        private List<string> GetElectionDates(ref string retValue)
         {
             List<string> dates = new List<string>();
             
