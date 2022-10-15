@@ -15,6 +15,7 @@ namespace SuperVoters
         public string candidatePhone { get; set; }
         public string description { get; set; }
         public int numberOfVotes { get; set; }
+        public byte[] imageData { get; set; }
 
         public Candidate()
         { }
